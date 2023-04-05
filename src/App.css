@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background-color: rgb(189, 199, 207);
+}
+.inputBox{
+  margin-top: 2%;
+  width: 30%;
+  margin-right: 3px;
+  border-radius: 5px;
+  border: 2px solid rgb(64, 69, 71);
+}
+.shorty {
+  margin: 30px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+
+}
+.results{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 3px double rgb(8, 35, 53);
+  justify-content: center;
+  align-items: center;
+  padding:30px;
+  background-color: rgb(235, 235, 235) ;
+}
+button {
+  display: inline-block;
+  margin-top: 250px;
+  margin-left: 250px;
+  color: white;
+  border: none;
+  background-color: rgb(89, 172, 172);
+  width: 9em;
+  transition: color 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+button:hover {
+  color: rgb(75, 80, 90);
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(53, 61, 66);
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.copyB{
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border-radius: 25px;
+}
+.shortenB{
+  margin-left:2%;
+  border-radius: 25px;
+
+}
